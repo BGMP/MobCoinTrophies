@@ -1,0 +1,8 @@
+name: MobCoinTrophies
+version: ${project.version}
+main: cl.bgmp.mobcointrophies.MobCoinTrophies
+api-version: '1.13'
+authors: [BGMP]
+description: MobCoin Trophies
+softdepend: [SuperMobCoins]
+load: POSTWORLD

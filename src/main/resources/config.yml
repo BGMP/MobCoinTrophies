@@ -1,0 +1,37 @@
+trophies:
+  tier1:
+    id: "tier1"
+    title: "&a&lTrophy &6[I]"
+    production: 3
+    levelGain: 300
+    limit: 7
+  tier2:
+    id: "tier2"
+    title: "&e&lTrophy &6[II]"
+    production: 6
+    levelGain: 600
+    limit: 6
+  tier3:
+    id: "tier3"
+    title: "&6&lTrophy [III]"
+    production: 12
+    levelGain: 1200
+    limit: 3
+  boss:
+    id: "boss"
+    title: "&4&lBoss Trophy"
+    production: 10
+    levelGain: 1000
+    limit: 2
+  koth:
+    id: "koth"
+    title: "&1&lKoth Trophy"
+    production: 20
+    levelGain: 2000
+    limit: 1
+options:                                    # Unsupported
+  skyblock:
+    enabled: false
+    world: "island_normal_world"
+registrar:
+  format: 1.1
