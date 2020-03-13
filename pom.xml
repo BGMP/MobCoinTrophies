@@ -56,16 +56,16 @@
 
     <repositories>
         <repository>
-            <id>localrepo</id>
-            <url>file://${basedir}/dependencies</url>
-        </repository>
-        <repository>
             <id>destroystokyo-repo</id>
             <url>https://repo.destroystokyo.com/repository/maven-public/</url>
         </repository>
         <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>bgmp</id>
+            <url>https://bgmp.cl/</url>
         </repository>
     </repositories>
 
@@ -77,11 +77,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>me.swanis.mobcoins</groupId>
-            <artifactId>MobCoins</artifactId>
-            <scope>system</scope>
+            <groupId>me.swanis</groupId>
+            <artifactId>mobcoins-api</artifactId>
             <version>1.1-SNAPSHOT</version>
-            <systemPath>${basedir}/dependencies/mobcoins-api.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.sk89q</groupId>
