@@ -1,4 +1,4 @@
-package cl.bgmp.mobcointrophies.Trophies;
+package cl.bgmp.mobcointrophies.trophies;
 
 import org.bukkit.scheduler.BukkitRunnable;
 

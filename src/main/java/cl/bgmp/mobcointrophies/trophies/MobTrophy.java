@@ -1,4 +1,4 @@
-package cl.bgmp.mobcointrophies.Trophies;
+package cl.bgmp.mobcointrophies.trophies;
 
 import cl.bgmp.mobcointrophies.ChatConstant;
 import cl.bgmp.mobcointrophies.MobCoinTrophies;

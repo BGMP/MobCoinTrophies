@@ -1,7 +1,7 @@
-package cl.bgmp.mobcointrophies.Listeners;
+package cl.bgmp.mobcointrophies.listeners;
 
 import cl.bgmp.mobcointrophies.MobCoinTrophies;
-import cl.bgmp.mobcointrophies.Trophies.TrophyManager;
+import cl.bgmp.mobcointrophies.trophies.TrophyManager;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;

@@ -1,10 +1,10 @@
-package cl.bgmp.mobcointrophies.Listeners;
+package cl.bgmp.mobcointrophies.listeners;
 
 import cl.bgmp.mobcointrophies.ChatConstant;
-import cl.bgmp.mobcointrophies.GUI.TrophyGUI;
+import cl.bgmp.mobcointrophies.gui.TrophyGUI;
 import cl.bgmp.mobcointrophies.MobCoinTrophies;
-import cl.bgmp.mobcointrophies.Trophies.MobTrophy;
-import cl.bgmp.mobcointrophies.Trophies.Tier;
+import cl.bgmp.mobcointrophies.trophies.MobTrophy;
+import cl.bgmp.mobcointrophies.trophies.Tier;
 import cl.bgmp.mobcointrophies.Utils;
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package cl.bgmp.mobcointrophies.GUI;
+package cl.bgmp.mobcointrophies.gui;
 
 import cl.bgmp.mobcointrophies.MobCoinTrophies;
 import cl.bgmp.mobcointrophies.Utils;

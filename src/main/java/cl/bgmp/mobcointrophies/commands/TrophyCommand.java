@@ -1,7 +1,7 @@
-package cl.bgmp.mobcointrophies.Commands;
+package cl.bgmp.mobcointrophies.commands;
 
 import cl.bgmp.mobcointrophies.ChatConstant;
-import cl.bgmp.mobcointrophies.Trophies.Tier;
+import cl.bgmp.mobcointrophies.trophies.Tier;
 import cl.bgmp.mobcointrophies.Utils;
 import com.sk89q.minecraft.util.commands.Command;
 import com.sk89q.minecraft.util.commands.CommandContext;

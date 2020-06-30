@@ -1,11 +1,11 @@
 package cl.bgmp.mobcointrophies;
 
-import cl.bgmp.mobcointrophies.Commands.TrophyCommand;
-import cl.bgmp.mobcointrophies.GUI.GUIComponents;
-import cl.bgmp.mobcointrophies.Listeners.PlayerConnection;
-import cl.bgmp.mobcointrophies.Listeners.PlayerInteract;
-import cl.bgmp.mobcointrophies.Listeners.PlayerWorldChange;
-import cl.bgmp.mobcointrophies.Trophies.TrophyManager;
+import cl.bgmp.mobcointrophies.commands.TrophyCommand;
+import cl.bgmp.mobcointrophies.gui.GUIComponents;
+import cl.bgmp.mobcointrophies.listeners.PlayerConnection;
+import cl.bgmp.mobcointrophies.listeners.PlayerInteract;
+import cl.bgmp.mobcointrophies.listeners.PlayerWorldChange;
+import cl.bgmp.mobcointrophies.trophies.TrophyManager;
 import com.sk89q.bukkit.util.BukkitCommandsManager;
 import com.sk89q.bukkit.util.CommandsManagerRegistration;
 import com.sk89q.minecraft.util.commands.*;
@@ -84,7 +84,7 @@ public final class MobCoinTrophies extends JavaPlugin {
         trophyManager.loadRegistrars();
         this.cancel();
       }
-    }.runTaskTimer(this, 5L, 20L);
+    }.runTaskLater(this, 5L);
 
     guiComponents = new GUIComponents();
 

@@ -1,6 +1,6 @@
 package cl.bgmp.mobcointrophies;
 
-import cl.bgmp.mobcointrophies.Trophies.Tier;
+import cl.bgmp.mobcointrophies.trophies.Tier;
 import java.util.Arrays;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

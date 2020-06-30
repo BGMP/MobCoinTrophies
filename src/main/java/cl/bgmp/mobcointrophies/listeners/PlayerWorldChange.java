@@ -1,9 +1,9 @@
-package cl.bgmp.mobcointrophies.Listeners;
+package cl.bgmp.mobcointrophies.listeners;
 
 import cl.bgmp.mobcointrophies.Config;
 import cl.bgmp.mobcointrophies.MobCoinTrophies;
-import cl.bgmp.mobcointrophies.Trophies.MobTrophy;
-import cl.bgmp.mobcointrophies.Trophies.TrophyManager;
+import cl.bgmp.mobcointrophies.trophies.MobTrophy;
+import cl.bgmp.mobcointrophies.trophies.TrophyManager;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.event.EventHandler;

@@ -1,6 +1,6 @@
-package cl.bgmp.mobcointrophies.GUI;
+package cl.bgmp.mobcointrophies.gui;
 
-import cl.bgmp.mobcointrophies.Trophies.MobTrophy;
+import cl.bgmp.mobcointrophies.trophies.MobTrophy;
 import cl.bgmp.mobcointrophies.Utils;
 import java.util.HashMap;
 import org.bukkit.Material;
