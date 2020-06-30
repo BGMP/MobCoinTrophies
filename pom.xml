@@ -41,6 +41,12 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <artifactSet>
+                                <includes>
+                                    <include>com.sk89q:command-framework-bukkit</include>
+                                    <include>me.swanis:mobcoins-api</include>
+                                </includes>
+                            </artifactSet>
                         </configuration>
                     </execution>
                 </executions>
@@ -76,6 +82,7 @@
             <version>1.15.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <!-- FIXME: Should probably use a provided scope. Needs testing -->
         <dependency>
             <groupId>me.swanis</groupId>
             <artifactId>mobcoins-api</artifactId>
